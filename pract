@@ -1,0 +1,61 @@
+'''arr=[1,2,3,4,5]
+#target=9
+#left=0
+#right=len(arr)-1
+#while left<right:
+#    sum=arr[left]+arr[right]
+ #   if sum==target:
+ #       print("True")
+  #      break
+   # elif sum<target:
+     #   left=left+1
+   # else:
+     #   right=right-1'''
+        
+'''arr="malayalam"
+left=0
+right=len(arr)-1
+while left<right:
+    if arr[left]!=arr[right]:
+        print("not")
+        break
+    left=left+1
+    right=right-1
+else:
+    print("palindrome")'''
+'''leftmax=[]
+arr=[4,0,3,2,5]
+maxx=0
+for i in range(len(arr)):
+    maxx=max(maxx,arr[i])
+    leftmax.append(maxx)
+print(leftmax)
+rightmax=[]
+maxi=0
+r=arr[-1]
+for i in range(len(arr)-1,-1,-1):
+    r=max(r,arr[i])
+    rightmax.append(r)
+print(rightmax)
+water=0
+for i in range():
+    water+=min(leftmax[i],rightmax[i]-arr[i])
+print(water)'''
+'''char='A'
+print(ord(char))   //character to ascii'''
+'''char=90
+print(chr(char))    // no to charac'''
+'''char='A'
+print(chr(ord(char)+32))   //cap A to small a'''
+         
+n=[1,2,3,4,5,6,7]
+k=3
+n=n[-k:]+n[:-k]
+print(n)
+    
+    
+
+    
+  
+
+    
